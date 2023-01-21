@@ -15,16 +15,16 @@ function MainNavigation(){
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto " style={{margin:'0 auto'}}>
             <li className="nav-item active " style={{margin:'0 10px 0 40px'}}>
-              <Link to="/shopy/"><a className="nav-link" >All Items</a></Link>
+              <Link to="/shopifyy/"><a className="nav-link" >All Items</a></Link>
             </li>
             <li className="nav-item active" style={{margin:'0 10px 0 40px'}}>
-              <Link to="/shopy/contact"><a className="nav-link" >Contact Us</a></Link>
+              <Link to="/shopifyy/contact"><a className="nav-link" >Contact Us</a></Link>
             </li>
             <li className="nav-item active" style={{margin:'0 10px 0 40px'}}>
-              <Link to="/shopy/favorites"><a className="nav-link"  >Items in cart {favortiectx.totalFavorites}</a></Link>
+              <Link to="/shopifyy/favorites"><a className="nav-link"  >Items in cart {favortiectx.totalFavorites}</a></Link>
             </li>
             <li className="nav-item active" style={{margin:'0 10px 0 40px'}}>
-              <Link to="/shopy/wishlist"><a className="nav-link"  >Wishlist {wishiectx.totalFavorites}</a></Link>
+              <Link to="/shopifyy/wishlist"><a className="nav-link"  >Wishlist {wishiectx.totalFavorites}</a></Link>
             </li>
           </ul>
           <form className="form-inline my-3">

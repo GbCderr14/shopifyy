@@ -11,10 +11,10 @@ function App() {
       
       <Layout>
       <Routes>
-        <Route path="/shopy/" element={<Allitem />}/>
-        <Route path="/shopy/favorites" element={<Favorites />}/>
-        <Route path="/shopy/wishlist" element={<Wishlist />}/>
-        <Route path="/shopy/contact" element={<Contact />}/>
+        <Route path="/shopifyy/" element={<Allitem />}/>
+        <Route path="/shopifyy/favorites" element={<Favorites />}/>
+        <Route path="/shopifyy/wishlist" element={<Wishlist />}/>
+        <Route path="/shopifyy/contact" element={<Contact />}/>
       </Routes>
       </Layout>
        </div>
