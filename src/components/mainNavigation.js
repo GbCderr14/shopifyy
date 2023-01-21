@@ -1,7 +1,5 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
-import classes from "./mainNavigation.module.css";
 import FavoritesContext from '../store/favorites-context';
 import WishlistContext from '../store/wishlist-context';
 import {useContext} from "react";
@@ -20,10 +18,13 @@ function MainNavigation(){
               <Link to="/shopy/"><a className="nav-link" >All Items</a></Link>
             </li>
             <li className="nav-item active" style={{margin:'0 10px 0 40px'}}>
+              <Link to="/shopy/contact"><a className="nav-link" >Contact Us</a></Link>
+            </li>
+            <li className="nav-item active" style={{margin:'0 10px 0 40px'}}>
               <Link to="/shopy/favorites"><a className="nav-link"  >Items in cart {favortiectx.totalFavorites}</a></Link>
             </li>
             <li className="nav-item active" style={{margin:'0 10px 0 40px'}}>
-              <Link to="/shopy/wishlist"><a className="nav-link" >Items wishlisted {wishiectx.totalFavorites}</a></Link>
+              <Link to="/shopy/wishlist"><a className="nav-link"  >Wishlist {wishiectx.totalFavorites}</a></Link>
             </li>
           </ul>
           <form className="form-inline my-3">
