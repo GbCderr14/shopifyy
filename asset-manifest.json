@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shopy/static/css/main.a26e0bd8.css",
+    "main.js": "/shopy/static/js/main.1f51f9bb.js",
+    "index.html": "/shopy/index.html",
+    "main.a26e0bd8.css.map": "/shopy/static/css/main.a26e0bd8.css.map",
+    "main.1f51f9bb.js.map": "/shopy/static/js/main.1f51f9bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a26e0bd8.css",
+    "static/js/main.1f51f9bb.js"
+  ]
+}
